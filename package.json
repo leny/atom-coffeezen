@@ -1,0 +1,17 @@
+{
+  "name": "coffeezen",
+  "main": "./lib/coffeezen",
+  "version": "0.0.1",
+  "description": "An Atom package to use CoffeeScript as a zen generator in javascript files.",
+  "activationEvents": [
+    "coffeezen:compile"
+  ],
+  "repository": "https://github.com/leny/atom-coffeezen",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.39.0"
+  },
+  "dependencies": {
+    "coffee-script": "~1.7"
+  }
+}
